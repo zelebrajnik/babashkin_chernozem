@@ -21,6 +21,7 @@ void qs(int arr[], int low, int high) {
 		int p = pa(arr, low, high);
 		qs(arr, low, p - 1);
 		qs(arr, p + 1, high);
+		//////////////////
 	}
 }
 
